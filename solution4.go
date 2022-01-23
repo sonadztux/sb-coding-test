@@ -24,7 +24,6 @@ func findAnagramWordInList(wordList []string) [][]string {
 		anagramWords[key] = append(anagramWords[key], word)
 	}
 
-	// fmt.Println(anagramWords)
 	for _, anagramWord := range anagramWords {
 		anagramWordsInSlice = append(anagramWordsInSlice, anagramWord)
 	}
